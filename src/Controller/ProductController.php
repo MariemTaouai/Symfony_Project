@@ -31,6 +31,7 @@ final class ProductController extends AbstractController
        public function goToIndex(){
         return  $this->redirectToRoute("app_product");
     }
+    
 
 }
 
